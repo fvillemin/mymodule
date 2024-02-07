@@ -22,4 +22,7 @@ The name is important and the version will have to be updated after each new ver
 
 Now let's configure a github project.
 * open git in replit
+* initialize git repository
+* go to settings tab then Create Repository on Github (Private)
+* The Remote will be updated to : https://github.com/fvillemin/mymodule
 * 
