@@ -5,7 +5,7 @@
 * Then create the folder in which you will put the module files, here : mymodule
 * In this folder, create a \_\_init\_\_.py file, empty, to say that it's a module folder
 * Then create a file in which you will put your module functions : mymodule_misc.py
-* Create some functions in it. I have added tqo functions.
+* Create some functions in it. I have added two functions.
 
 In the main.py you can test using this module by importing it
 It's ok the module works, I'm happy.
@@ -47,3 +47,9 @@ mymodule_misc.mymodule_works()
 ```
 
 Everytime you change interesting things in your module, change the version number and push to Github and go to your main project and redo the pip install -U and it will upgrade the module.
+
+__Second method__ if you want to give your module to someone while your github is private and not accessible directly with pip install : download the full zip from github and give it to the user. He will be able to extract the zip then do 
+```
+pip install ./mymodule
+```
+and it will install the module.
