@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mymodule"
-version = "0.0.1"
+version = "0.0.2"
 description = "small module to test things"
 authors = ["Frederic Villemin <frederic@villem.in>"]
 
